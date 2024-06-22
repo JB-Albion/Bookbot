@@ -38,6 +38,8 @@ def presentation(my_dictionary, num_of_letters):
     print("\n")
     for letter in my_dictionary:
         print(f"The character {letter} occured {my_dictionary[letter]} times.")
+    print("=========================================")
+
 
 
 
