@@ -1,6 +1,6 @@
 
 def main():
-    with open("books/frankenstein.txt") as f:
+    with open("Bookbot/books/frankenstein.txt") as f:
         text = f.read()
         num_words = num_of_words(text)
         print(f"There are {num_words} words in this text.")
